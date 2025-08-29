@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changec{
+            0%{background:  salmon;rotate: 20deg;border-radius: 10%;translate: 40%;scale: 20%;}
+            10%{background: darkcyan;rotate:60deg;border-radius:20% ;}
+            20%{background: hotpink;rotate: 24deg;border-radius:30% ;}
+            30%{background: rgb(15, 177, 50);rotate: 18deg;border-radius:40% ;}
+            40%{background: rgb(9, 173, 218);rotate: 36deg;border-radius: 70%;}
+            50%{background: goldenrod;rotate:20deg;border-radius:60% ;}
+            60%{background: rgb(203, 75, 180);rotate: 20deg;border-radius:30% ;}
+            70%{background: palegreen;rotate: 60deg;border-radius:60% ;}
+            80%{background: olivedrab;rotate: 18deg;border-radius:20% ;}
+            90%{background: orangered;rotate: 36deg;}
+            100%{background:lightgreen;rotate: 0deg;}
+        }
+        .ani{
+            height: 200px;
+            width: 200px;
+            background: salmon;
+            animation-name: changec;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        .ani.hover{
+            height:400px;
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ani"></div>
+    <div class="ani"></div>   
+</body>
+</html>
